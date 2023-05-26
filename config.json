@@ -1,0 +1,4 @@
+{
+    "events_tsv":   "/path/to/events.tsv",
+    "events_csv":   "/path/to/events.csv"
+}
