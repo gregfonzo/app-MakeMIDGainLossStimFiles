@@ -3,4 +3,4 @@
 #PBS -N app-MakeMIDGainLossStimFiles
 
 echo "Running MakeMIDGainLossStimFiles App"
-time singularity exec -e docker://brainlife/fsl:5.0.9 ./MakeMIDGainLossStimFiles.sh
+singularity exec -e docker://brainlife/fsl:5.0.9 ./MakeMIDGainLossStimFiles.sh
